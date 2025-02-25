@@ -1,0 +1,39 @@
+{
+  "token": "token",
+  "prefix": ">",
+  "settings": {
+    "channel_ids":[
+      1309749823607541810
+    ],
+    "owodm_channelid": 1343147240658829402,
+      "channel_change_interval": [5, 15],
+      "animal_types": "all",
+      "slotamount": ["1000", "5000", "2000"],
+      "autocoinflip_amount": ["1000", "5000", "2000"],
+      "random_commands": ["zoo", "ping", "pic animal_cat", "xp"]
+    },
+  "plugins": {
+    "autosell": "false",
+    "autolevelup": "true",
+    "autoslot": "true",
+    "autocoinflip": "true",
+    "autohunt": "true",
+    "autohuntbot": "true",
+    "autopray": "true",
+    "use_random_commands": "true"
+  },
+  "captcha": {
+    "avail_services": ["twocaptcha", "capsolver", "capmonster", "captchaai", "scrappey", "nopecha"],
+    "hcaptcha_service": "twocaptcha",
+    "hcaptcha_key": "api key",
+    "TextToImage_service": "capmonster",
+    "TextToImage_key": "api key",
+    "huntbot_key": "huntbot key"
+  },
+"notifications": {
+  "captcha_alerts": "url webhook",
+  "daily_claim_alerts": "url webhook",
+  "huntbot_alert": "url webhook",
+  "funds_alerts": "url webhook"
+}
+}

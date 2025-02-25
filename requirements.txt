@@ -1,0 +1,7 @@
+discord.py-self==1.9.2
+httpx
+requests
+tls-client
+wonderwords
+colorama
+2captcha-python
